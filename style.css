@@ -12,17 +12,31 @@
     top: -80px;
 }
 
+.custom-navbar {
+  background-color: #000000;
+  /*background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+ 
+
 .nav-link:hover {
-    color: #1da69a !important;
+    color: #cf933a !important;
     text-decoration: underline !important;
 }
 
 .hero-section {
-    background: linear-gradient(to right, #0e3c47, #1da69a);
+    background: linear-gradient(to right, #ffe270, #ffc107);
     height: 100vh;
     position: relative;
     overflow: hidden;
 }
+
+.details{ 
+  color: #000;
+}
+
 
 /* Particles */
 .floating-particles span {
@@ -30,7 +44,7 @@
     display: block;
     width: 6px;
     height: 6px;
-    background: rgba(255, 255, 255, 0.5);
+    background: #c7a528;
     border-radius: 50%;
     animation: floatParticle 20s linear infinite;
 }
@@ -114,8 +128,7 @@
 /* Button Styling */
 .btn-first {
     background-color: #fff !important;
-    color: #1da69a !important;
-    margin-bottom: 10px;
+    color: #cf933a !important;
 }
 
 .btn-animated {
@@ -128,9 +141,7 @@
 }
 
 .why-hrm-section {
-    background: #ffffff;
-    border-top-left-radius: 80px;
-    border-top-right-radius: 80px;
+    background: #000;
     margin-top: -5px;
     z-index: 2;
     position: relative;
@@ -143,7 +154,7 @@
 }
 
 .feature-card {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -151,8 +162,8 @@
     text-align: center;
     transition: all 0.3s ease;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #333;
+    border: 1px solid #ffc107;
+    color: #fff;
 }
 
 .feature-card:hover {
@@ -168,7 +179,7 @@
 
 .feature-card p {
     font-size: 0.95rem;
-    color: #555;
+    color: #a3a0a0;
 }
 
 /* Gradient Icon Circles */
@@ -202,7 +213,7 @@
 }
 
 .hrms-modules-section {
-  background: #f4fafd;
+  background: #000;
   padding: 80px 20px;
   font-family: 'Poppins', sans-serif;
 }
@@ -211,11 +222,11 @@
   text-align: center;
   font-size: 36px;
   margin-bottom: 60px;
-  color: #1da69a;
+  color: #cf933a;
 }
 
 .hrms-slide-box {
-  background: white;
+  background: #1a1a1a;
   padding: 30px;
   margin: 0 auto;
   max-width: 800px;
@@ -225,7 +236,7 @@
 
 .hrms-slide-box h3 {
   font-size: 24px;
-  color: #1da69a;
+  color: #ffc107;
   margin-bottom: 20px;
 }
 
@@ -239,14 +250,14 @@
   padding-left: 24px;
   margin-bottom: 12px;
   font-size: 16px;
-  color: #333;
+  color: #f4fafd;
 }
 
 .hrms-slide-box ul li::before {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #1da69a;
+  color: #ffc107;
   font-weight: bold;
 }
 
@@ -256,7 +267,7 @@
 }
 
 .benefits-section {
-    background: linear-gradient(to bottom, #f0f7f8, #ffffff);
+    background: #000;
     padding: 80px 20px;
     font-family: 'Poppins', sans-serif;
 }
@@ -269,7 +280,7 @@
 .section-title {
     text-align: center;
     font-size: 36px;
-    color: #1da69a;
+    color: #cf933a;
     margin-bottom: 50px;
 }
 
@@ -281,8 +292,7 @@
 }
 
 .benefit-card {
-    background: white;
-    border-left: 6px solid #1da69a;
+    background: linear-gradient(45deg, #ffc107, #fae694);
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
@@ -296,7 +306,7 @@
 .benefit-card h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #1da69a;
+    color: #000;
 }
 
 .benefit-card p {
@@ -306,13 +316,13 @@
 
 .divider {
     height: 2px;
-    background: #e0e0e0;
+    background: #ffc107;
     margin: 60px 0;
 }
 
 .straightforward h2 {
     font-size: 30px;
-    color: #0e3c47;
+    color: #cf933a;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -326,8 +336,8 @@
 
 .straight-card {
     flex: 1 1 300px;
-    background: #ffffff;
-    border: 1px solid #e0f2f1;
+    background: linear-gradient(45deg, #ffc107, #fae694);
+    border: 1px solid #ffc107;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.04);
@@ -339,7 +349,7 @@
 }
 
 .straight-card h3 {
-    color: #1da69a;
+    color: #000;
     font-size: 18px;
     margin-bottom: 12px;
 }
@@ -351,14 +361,14 @@
 
 .how-it-works-timeline {
     padding: 80px 20px;
-    background: linear-gradient(to right, #ffffff, #f0f5f7);
+    background: #000;
     font-family: 'Poppins', sans-serif;
 }
 
 .timeline-title {
     text-align: center;
     font-size: 36px;
-    color: #1da69a;
+    color: #cf933a;
     margin-bottom: 60px;
     font-weight: 700;
 }
@@ -368,7 +378,7 @@
     margin: 0 auto;
     position: relative;
     padding-left: 30px;
-    border-left: 3px solid #1da69a;
+    border-left: 3px solid #ffc107;
 }
 
 .timeline-step {
@@ -381,7 +391,7 @@
 }
 
 .timeline-step .icon {
-    background: #1da69a;
+    background: linear-gradient(45deg, #ffc107, #fae694);
     color: white;
     min-width: 50px;
     height: 50px;
@@ -397,13 +407,13 @@
 
 .timeline-step .content h3 {
     font-size: 22px;
-    color: #333;
+    color: #ffff;
     margin-bottom: 8px;
 }
 
 .timeline-step .content p {
     font-size: 16px;
-    color: #555;
+    color: #f0f0f0;
     line-height: 1.6;
 }
 
@@ -437,7 +447,7 @@
 
 .testimonial-cta-section {
   height: 100vh;
-  background: linear-gradient(to right, #0e3c47, #1da69a);
+  background: linear-gradient(to right, #ffe270, #ffc107);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -448,6 +458,7 @@
 }
 
 .overlay {
+  background: linear-gradient(to right, #ffe270, #ffc107);
   width: 100%;
   max-width: 1100px;
   padding: 40px 20px;
@@ -486,7 +497,7 @@
 }
 
 .swiper-pagination-bullet {
-  background: #1da69a !important;
+  background: #cf933a !important;
 }
 
 .cta-content {
@@ -549,7 +560,7 @@
 }
 
 .pricing-unique {
-  background: linear-gradient(135deg, #e0f7fa, #fff);
+  background: #000;
   padding: 80px 30px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -558,7 +569,7 @@
 
 .pricing-header h2 {
   font-size: 36px;
-  color: #1da69a;
+  color: #cf933a;
   margin-bottom: 10px;
 }
 
@@ -594,13 +605,13 @@
 
 .pricing-box .icon {
   font-size: 38px;
-  color: #1da69a;
+  color: #c7a528;
   margin-bottom: 20px;
 }
 
 .pricing-box h3 {
   font-size: 24px;
-  color: #1da69a;
+  color: #c7a528;
   margin-bottom: 8px;
 }
 
@@ -628,7 +639,7 @@
   content: "\f00c";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: #1da69a;
+  color: #cf933a;
   position: absolute;
   left: 0;
   top: 1px;
@@ -636,8 +647,8 @@
 
 .btn-glass {
   background: transparent;
-  border: 2px solid #1da69a;
-  color: #1da69a;
+  border: 2px solid #cf933a;
+  color: #cf933a;
   padding: 10px 24px;
   border-radius: 25px;
   font-weight: 600;
@@ -646,14 +657,14 @@
 }
 
 .btn-glass:hover {
-  background: #1da69a;
-  color: #fff;
+  background: #cf933a;
+  color: #000;
 }
 
 /* Featured Plan Styling */
 .featured {
-  border: 2px solid #1da69a;
-  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #ffc107;
+  background: linear-gradient(45deg, #ffc107, #fae694);
 }
 
 @media (max-width: 768px) {
@@ -667,7 +678,7 @@
 }
 
 .cta-faq-section {
-  background: #ffffff;
+  background: #0000;
   color: #1a1a1a;
   padding: 80px 20px;
   font-family: 'Poppins', sans-serif;
@@ -739,7 +750,7 @@
 
 .faq-item {
   margin-bottom: 18px;
-  background: #f8f8f8;
+  background: #0000;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   overflow: hidden;
@@ -754,7 +765,7 @@
   font-weight: 600;
   font-size: 16px;
   padding: 15px 20px;
-  background: #ffffff;
+  background: #0000;
   border-radius: 10px;
   cursor: pointer;
   position: relative;
@@ -782,7 +793,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease;
-  background: #ffffff;
+  background: #0000;
   padding: 0 20px;
 }
 
